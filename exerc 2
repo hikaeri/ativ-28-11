@@ -1,0 +1,20 @@
+Algoritmo "par e ímpar"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Rafael
+// Descrição   : verifica se o valor é par ou ímpar
+// Autor(a)    : Miguel Tsuyoshi
+// Data atual  : 28/11/2022
+Var
+// Seção de Declarações das variáveis 
+num:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Insira um valor")
+leia(num)
+se num %2=0 entao
+escreva("Seu número é par")
+senão
+escreva("Seu número é ímpar")
+fimse
+Fimalgoritmo
