@@ -1,0 +1,20 @@
+Algoritmo "idade"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Rafael 
+// Descrição   : identifica a idade e a quantos anos se alistará no exército
+// Autor(a)    : Miguel Tsuyoshi
+// Data atual  : 28/11/2022
+Var
+// Seção de Declarações das variáveis 
+idade:real
+nom:caractere
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreval("Insira sua data de nascimento")
+leia(idade)
+se idade>=18 entao
+   escreva("Você já se alistou no exército")
+senao idade<18 entao
+   escreva("Você irá se alistar daqui a", " ", 18-idade, " ", "anos")
+fimse
+Fimalgoritmo
