@@ -1,0 +1,22 @@
+Algoritmo "multa"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Rafael
+// Descrição   : Inserir uma velocidade do carro e computar uma multa
+// Autor(a)    : Miguel Tsuyoshi
+// Data atual  : 28/11/2022
+Var
+// Seção de Declarações das variáveis 
+velcar:real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Insira a velocidade que você percorreu")
+leia(velcar)
+se velcar > 80 entao
+escreva("Velocidade Máxima Violada, Você vai receber R$", velcar*5-80, " ", "de multa")
+fimse
+se velcar <= 80 entao
+escreva("Você está na velocidade ideal")
+fimse
+Fimalgoritmo
