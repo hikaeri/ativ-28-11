@@ -1,0 +1,34 @@
+Algoritmo "impossível"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : impossível
+// Autor(a)    : Miguel Tsuyoshi
+// Data atual  : 10/12/2022
+Var
+// Seção de Declarações das variáveis 
+nome:caractere
+mulher:real
+idade,valor,resultado,resultado2,por,por2:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("insira seu nome")
+                leia(nome)
+escreval("insira sua idade")
+                leia(idade)
+escreval("insira seu sexo, 1 para mulher e 0 para homem")
+                leia(mulher)
+escreval("diga o quanto foi o valor da sua compra")
+              leia(valor)
+              
+resultado<- valor*13
+resultado2<-valor*5
+por<-resultado/100
+por2<-resultado2/1000
+
+
+   se mulher=1 entao
+   escreva("você irá pagar R$",valor-por)
+senao
+   escreva("você irá pagar R$",valor-por2)
+fimse
+Fimalgoritmo
