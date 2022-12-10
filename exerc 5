@@ -1,0 +1,22 @@
+Algoritmo "distância"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : calcula a distância
+// Autor(a)    : Miguel Tsuyoshi
+// Data atual  : 10/12/2022
+Var
+// Seção de Declarações das variáveis 
+dist:inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Indique a distância que irá percorrer")
+leia(dist)
+se dist<=200 entao
+   escreva("Você irá pagar R$", 0.50*dist)
+fimse
+se dist>200 entao
+   escreva("Você irá pagar R$", 0.45*dist)
+fimse
+Fimalgoritmo
